@@ -1,38 +1,64 @@
-.App {
-  text-align: center;
+body{
+  background: url("../src/_imgs/math-wallpaper.jpg") no-repeat center center fixed;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.cssContainer{
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  border: 2px solid rgb(199, 18, 18);
+  background-color: #000;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10%;
+  width: 36.5%;
+}
+.cssContainer h3{
+  color: whitesmoke;
+  text-align: center;
+}
+.cssButtons{
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.cssScreen{
+  display: flex;
+  padding-left: 20px;
+  padding-right: 20px;
+  align-items: center;
+  background-color: rgb(145, 139, 139);
+  flex-direction: column;
+  width: 80%;
+  border-radius: 10px;
+  margin: 15px;
+}
+.cssOperation{
+  font-size: 1em;
+  height: 20px;
+}
+.cssRes{
+  font-size: 50px;
   color: white;
 }
-
-.App-link {
-  color: #61dafb;
+.cssBtn{
+  font-size: 30px;
+  height: 75px;
+  width: 75px;
+  background-color: rgb(36, 36, 36);
+  color:#fff ;
+  border-color:#000 ;
+  text-align:center;
+  outline: none;
+  transition: 0.35s;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.cssBtn:hover{
+  background-color: #fff;
+  color: #000;
+}
+.cssButtons{
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.cabHeader{
+  height: 20px;
 }

@@ -1,0 +1,15 @@
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: rgba(199, 18, 18, 0.877);
+    text-align: center;
+}
+footer > h3{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 1.4em;
+    color: black;
+    font-weight: bolder;
+    text-shadow: 0.3px 0.75px 0.75px white;
+}
